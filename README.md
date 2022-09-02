@@ -1,3 +1,18 @@
 # Hello-Bas
 
-![image](https://user-images.githubusercontent.com/112730065/188239148-03dbe35d-8b7d-46d9-9876-66e656e8d277.png)
+
+import java.util.Scanner;
+public class test
+{
+    public static void main(String.args[])
+    {
+        Scanner in = new Scanner(System.in);
+        int A, B, X;
+        A=in.nextInt();
+        B=in.nextInt();
+        X=A+B;
+        System.out.println("X = "+ X);
+    
+    
+    }
+}
